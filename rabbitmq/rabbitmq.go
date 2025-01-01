@@ -5,8 +5,9 @@ import (
 	"fmt"
 	"log"
 	"sync"
-	"vajrapp/common/customerror"
-	"vajrapp/common/env"
+
+	"github.com/RishangS/customerror"
+	"github.com/RishangS/env"
 
 	"github.com/rabbitmq/amqp091-go"
 )
