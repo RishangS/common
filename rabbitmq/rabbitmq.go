@@ -6,8 +6,8 @@ import (
 	"log"
 	"sync"
 
-	"github.com/RishangS/customerror"
-	"github.com/RishangS/env"
+	"github.com/RishangS/common/customerror"
+	"github.com/RishangS/common/env"
 
 	"github.com/rabbitmq/amqp091-go"
 )
