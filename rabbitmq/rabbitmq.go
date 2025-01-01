@@ -66,7 +66,7 @@ func (r *RabbitMQ) IsConnectionAlive() bool {
 			return false
 		}
 	default:
-		log.Println("rabbitmq connection alive")
+		log.Println("rabbitmq connection aliveee")
 	}
 	return true
 }
