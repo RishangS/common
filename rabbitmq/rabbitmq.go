@@ -13,7 +13,7 @@ import (
 )
 
 var (
-	rmqURL      = env.GetEnv("RMQ_URL", "localhost:5672")
+	rmqURL      = env.GetEnv("RMQ_URL", "rabbitmq")
 	rmqUser     = env.GetEnv("RMQ_USER", "guest")
 	rmqPassword = env.GetEnv("RMQ_PASSWORD", "guest")
 )
